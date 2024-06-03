@@ -9,8 +9,8 @@ public class Main{
 		list.add(new Item("A", 100));
 		list.remove(new Item("A",500));
 		for (Item item : list) {
-            System.out.println(item.getName());
-        }
+             		System.out.println(item.getName());
+       	 	}
 
 		int num = 9;
 		if(num++ < 10){
